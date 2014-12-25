@@ -1662,4 +1662,10 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+#pragma mark - custom logic
+
+-(UIView*)getGridView{
+    return _gridController.view;
+}
+
 @end

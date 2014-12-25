@@ -68,4 +68,7 @@
 - (void)showNextPhotoAnimated:(BOOL)animated;
 - (void)showPreviousPhotoAnimated:(BOOL)animated;
 
+//getters
+-(UIView*)getGridView;
+
 @end
