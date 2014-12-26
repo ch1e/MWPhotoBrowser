@@ -378,7 +378,7 @@
     if (!_viewIsActive && [self.navigationController.viewControllers objectAtIndex:0] != self) {
         [self storePreviousNavBarAppearance];
     }
-    [self setNavBarAppearance:animated];
+   // [self setNavBarAppearance:animated];
     
     // Update UI
 	[self hideControlsAfterDelay];
