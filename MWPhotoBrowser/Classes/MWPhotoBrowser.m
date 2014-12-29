@@ -452,6 +452,7 @@
     navBar.barTintColor = self.navBarBackgroundColor;
     navBar.translucent = YES;
     navBar.barStyle = UIBarStyleDefault;
+    if(self.navBarTitleColor) [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: self.navBarTitleColor}];
     
 //    if ([navBar respondsToSelector:@selector(setBarTintColor:)]) {
 //        navBar.barTintColor = nil;
