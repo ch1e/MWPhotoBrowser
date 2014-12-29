@@ -449,7 +449,7 @@
     if (self.navBarTintColor) navBar.tintColor = self.navBarTintColor;
     else navBar.tintColor = SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7") ? [UIColor whiteColor] : nil;
     
-    navBar.backgroundColor = self.navBarBackgroundColor;
+    navBar.barTintColor = self.navBarBackgroundColor;
     navBar.translucent = YES;
     navBar.barStyle = UIBarStyleDefault;
     
