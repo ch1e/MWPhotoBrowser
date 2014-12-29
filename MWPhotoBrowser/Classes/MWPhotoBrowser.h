@@ -57,6 +57,7 @@
 @property (nonatomic, strong) UIColor *navBarTintColor;
 @property (nonatomic, strong) UIColor *navBarBackgroundColor;
 @property (nonatomic, strong) UIColor *navBarTitleColor;
+@property (nonatomic, strong) NSShadow *navBarTitleShadow;
 
 // Init
 - (id)initWithPhotos:(NSArray *)photosArray  __attribute__((deprecated("Use initWithDelegate: instead"))); // Depreciated

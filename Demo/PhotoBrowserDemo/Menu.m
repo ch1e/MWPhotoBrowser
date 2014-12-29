@@ -1048,6 +1048,8 @@
     browser.enableSwipeToDismiss = YES;
     [browser setCurrentPhotoIndex:0];
     
+    browser.navBarTitleColor = [UIColor redColor];
+    
     // Reset selections
     if (displaySelectionButtons) {
         _selections = [NSMutableArray new];
