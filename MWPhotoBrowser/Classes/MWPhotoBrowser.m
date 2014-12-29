@@ -1190,6 +1190,8 @@
         [_gridController didMoveToParentViewController:self];
     }];
     
+    if (self.hideNavBarInFullscreenMode) [self.navigationController setNavigationBarHidden:NO animated:animated];
+    
 }
 
 - (void)hideGrid {
@@ -1227,6 +1229,8 @@
         [tmpGridController removeFromParentViewController];
         [self setControlsHidden:NO animated:YES permanent:NO]; // retrigger timer
     }];
+    
+    if (self.hideNavBarInFullscreenMode) [self.navigationController setNavigationBarHidden:YES animated:YES];
 
 }
 
