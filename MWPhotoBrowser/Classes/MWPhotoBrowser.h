@@ -53,6 +53,10 @@
 @property (nonatomic) NSUInteger delayToHideElements;
 @property (nonatomic, readonly) NSUInteger currentIndex;
 
+//navbar customization
+@property (nonatomic, strong) UIColor *navBarTintColor;
+@property (nonatomic, strong) UIColor *navBarBackgroundColor;
+
 // Init
 - (id)initWithPhotos:(NSArray *)photosArray  __attribute__((deprecated("Use initWithDelegate: instead"))); // Depreciated
 - (id)initWithDelegate:(id <MWPhotoBrowserDelegate>)delegate;
