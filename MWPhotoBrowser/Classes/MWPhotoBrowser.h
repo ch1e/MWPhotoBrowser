@@ -60,8 +60,12 @@
 @property (nonatomic, strong) NSShadow *navBarTitleShadow;
 @property (nonatomic) BOOL hideNavBarInFullscreenMode;
 @property (nonatomic, copy) NSString *gridNavBarTitle;
+
+
 @property (nonatomic, strong) UIImage *imageSelectedOn;
 @property (nonatomic, strong) UIImage *imageSelectedSmallOn;
+
+@property (nonatomic, strong) UIColor *gridBackGroundColor;
 
 // Init
 - (id)initWithPhotos:(NSArray *)photosArray  __attribute__((deprecated("Use initWithDelegate: instead"))); // Depreciated
